@@ -1,0 +1,87 @@
+@-webkit-keyframes pulse{
+  0%{
+    -webkit-transform: scale(0.9);
+  }
+  50%{
+    -webkit-transform: scale(1.1);
+  }
+  100%{ 
+    -webkit-transform: scale(0.9);
+  }
+}
+.mypage-alo-phone {
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 200000 !important;
+}
+.mypage-alo-ph-img-circle {
+        width: 50px;
+        height: 50px;
+        top: 43px;
+        left: 43px;
+        position: absolute;
+        background:  url(https://i.imgur.com/J9AXAq7.png) no-repeat center center;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        border: 2px solid transparent;
+        opacity: .9;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        background-color: #b67d36;
+        background-size: 70%;
+      -webkit-animation: pulse 01s infinite;
+}
+.mypage-alo-ph-circle-fill {
+  
+    width: 80px;
+    height: 80px;
+    top: 28px;
+    left: 28px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: #402E32;
+    opacity: .75 !important;
+    -webkit-animation: pulse 1s infinite;
+}
+.mypage-alo-ph-circle{
+    width: 90px;
+    height: 90px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid #b67d36;
+    opacity: .1;
+    border-color:#ffb56b;
+    opacity: .5;
+}
