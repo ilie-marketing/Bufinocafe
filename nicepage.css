@@ -37594,6 +37594,7 @@ a.u-link.u-text-hover-grey-90:hover {
    margin: 5px 0px;
  }
  .container-general-gri .h1-indexhtml {
+   padding-top: 20px;
   font-size: 2rem;
   background-image: linear-gradient(120deg, #b67d36, #000000);
 
