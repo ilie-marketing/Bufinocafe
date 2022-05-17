@@ -12,3 +12,17 @@
       }
       
   }
+  .button-meniu {
+    background-color: white;
+    border: 2px solid #f2952f;
+    max-width: 200px;
+    font-family: inherit;
+    font-size: 1.75rem;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: auto;
+    
+
+
+  }
