@@ -233,10 +233,12 @@ border-radius: 15px;
     color: #f29f52;
 }
 .p4 {
-    font-size:2.5rem ;
+    color: #b67c36;
+    font-size:1.5rem ;
     text-align: center;
     padding: 0 5px;
-    margin-top: -15px;
+    margin-bottom: 20px;
+    
 }
 
 .subcontainer1 {
@@ -287,4 +289,11 @@ border-radius: 15px;
 }
 .imgfooter {
     max-width:120px;
+}
+.text-jos {
+    gap: 10px;
+}
+.black
+{
+    color: black;
 }
