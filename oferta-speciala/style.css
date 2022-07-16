@@ -38,7 +38,6 @@ h1 {
 .meniu {
     padding: 0px 5%;
     overflow: hidden;
-    gap: 15px;
 }
   .rand1 {
     width: 100%;
@@ -46,6 +45,8 @@ h1 {
     flex-direction: row;  
     justify-content: center;
     flex-wrap: wrap;
+    gap: 40px;
+
     
 
 
