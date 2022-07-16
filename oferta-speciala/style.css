@@ -38,6 +38,7 @@ h1 {
 .meniu {
     padding: 0px 5%;
     overflow: hidden;
+    gap: 15px;
 }
   .rand1 {
     width: 100%;
