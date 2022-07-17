@@ -99,6 +99,7 @@ h1 {
     background-color: none;
     flex-wrap:wrap-reverse;
     gap: 10px;
+    overflow: hidden;
 }
 .coloana1 {
     max-width: 550px;
@@ -269,7 +270,7 @@ border-radius: 15px;
 
 .footer {
     background-color: #b67c36;
-    padding: 20px ;
+    padding: 20px 0px;
     width: 100%;
     margin: 0;
     
