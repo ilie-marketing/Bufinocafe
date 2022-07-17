@@ -79,8 +79,17 @@ h1 {
 .whatsapp {
  font-size: 20px !important;
  color: green;
-}
 
+}
+.whatsapp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsappimg {
+    width: 40px;
+    padding: 0 10px;
+}
 .container-principal {
     display: flex;
     flex-direction: row;
@@ -162,12 +171,13 @@ border-radius: 15px;
 }
 .rand-container-oferta {
     padding: 0 10px;
+    
 }
 .ofertaimg {
     max-width: 200px;
 }
 .promocodimg {
-    max-width: 200px;
+    max-width: 150px;
 }
 .red {
     color: red;
@@ -202,24 +212,25 @@ border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
+    max-width: 100%;
 }
-.butonimg {
-    width: 250px;
-    z-index: 0;
-}
+
 .butoncomanda {
-    position: absolute;
-    z-index: 11;
-    margin-bottom: 35px;
-    margin-left: 8px;
     text-decoration: none;
     color: none;
     font-weight: bold;
     color: white;
+    background-color: #f29f52;
+    padding: 10px 20px;
+    border-radius: 10px;
     width: 150px;
     font-style: italic;
+    text-align: center;
 
+}
+.bvarianta2 {
+    background-color: #b67c36 !important;
+    
 }
 
 .p3 {

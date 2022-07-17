@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+body {
+    background-image: url(./images/5metode/5metodebackground.jpg);
+    background-color: aliceblue;
+    width: 100%;
+   min-height: 100vh;
+    object-fit:contain;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow-x: hidden;
+    flex-direction: column;
+
+}
+
+    .flex-center {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container-principal {
+        max-width: 950px;
+        background-color: rgba(0, 0, 0, 0.644);
+        border-radius: 15px;
+        padding: 10px;
+        flex-direction: column;
+        height: fit-content;
+        margin: 50px;
+    }
+    .logo {
+        height: 70px;
+    }
+    .rand {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;    
+    }
+    .rand a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .rand2 {
+        width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: white;
+        margin-top: 20px;
+
+
+    }
+    .rand3 {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 20px;    
+        
+    }
+  
+    .rand3-coloana1 {
+        background-color: rgba(255, 255, 255, 0.596);
+        border-radius: 15px;
+        padding: 7px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        width: 50%;
+        text-align: justify;
+        padding: 20px;
+        font-weight: bold;
+        line-height: 1.75rem;
+        
+
+    }
+    .rand3-coloana2 {
+        position: relative;
+        width: 50%;
+        height: 400px;
+
+    }
+    .continut {
+        max-width: 300px ;
+               
+    }
+
+    .sageata {
+        position: absolute;
+        bottom: 110px;
+        left: -15px;
+        bottom: -125px;
+        transform: rotatez(-15deg);
+
+        max-width: 200px;
+        display: none;
+    }
+    @media (max-width:1000px) {
+        .container-principal {
+            margin: 0;
+        }
+        .rand3 {
+            flex-wrap: wrap-reverse;
+        }
+        .sageata {
+            display: none;
+        }
+        .rand3-coloana1 {
+            width: 100%;
+        }
+        .rand3-coloana2 {
+            width: 100%;
+        }
+        .mailchimplogo {
+            display: none !important;
+        }
+        .rand a {
+            font-size: 1.1rem;
+        }
+        .clear, .foot {
+            justify-content: center !important;
+        }
+        .ol {
+            text-align: left !important;
+            
+        }
+        
+        
+    }
+    .footer {
+        background-color: rgba(0, 0, 0, 0.644);
+        min-height: 200px;
+        width: 100%;
+        flex-direction: column;
+        padding: 40px 0px;
+        border-radius: 15px 15px 0px 0px;
+        margin-top: 5px;
+    }
+    .rand1-footer {
+        color: white;
+        text-align: center;
+        align-items: flex-start;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-wrap: wrap;
+        
+
+    }
+    .rand1-footer div {
+        width: 250px;
+        margin: 20px;
+    }
