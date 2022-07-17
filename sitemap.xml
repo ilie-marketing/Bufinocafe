@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://bufinocafe.ro/</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/index.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/Bine-a%C8%9Bi-venit.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/Despre-noi.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/Meniu.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/Intrebari-frecvente.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/galerie.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bufinocafe.ro/Contact.html</loc>
+  <lastmod>2022-07-17T13:28:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
