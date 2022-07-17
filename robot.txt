@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /5-metode-de-a-comanda-mancare-online-mai-ieftin.html
-
+Disallow: /5-metode-de-a-comanda-mancare-online-mai-ieftin-2.html
+User-agent: *
+Disallow: /5-metode-de-a-comanda-mancare-online-mai-ieftin-1.html
 User-agent: *
 Disallow: /oferta-speciala/2022.html
